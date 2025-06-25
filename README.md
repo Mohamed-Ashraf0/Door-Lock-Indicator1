@@ -1,4 +1,4 @@
-# 🚪 Door Lock Indicator Project 1
+#      Door Lock Indicator Project 1
 
 ## 📄 Project Description
 
