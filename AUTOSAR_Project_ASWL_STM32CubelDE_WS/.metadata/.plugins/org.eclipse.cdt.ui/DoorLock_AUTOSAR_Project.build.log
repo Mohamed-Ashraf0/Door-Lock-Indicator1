@@ -1,0 +1,10 @@
+14:14:52 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3196	      8	   1720	   4924	   133c	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+
+14:14:52 Build Finished. 0 errors, 0 warnings. (took 277ms)
+

@@ -1,0 +1,24 @@
+/*
+ * DIO.c
+ *
+ *  Created on: Jun 24, 2025
+ *      Author: Moham
+ */
+
+#include "DIO.h"
+
+unsigned char Dio_Readchhannel (unsigned char ID)
+{
+
+	return(MCAL_GPIO_ReadPin(GPIO_Port_Used, ID));
+
+}
+void Dio_Writechhannel (unsigned char ID,unsigned char Level)
+{
+	MCAL_GPIO_WritePin(GPIO_Port_Used, ID, Level);
+
+}
+
+
+
+

@@ -1,0 +1,279 @@
+!SESSION 2025-06-23 12:59:11.425 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-23 12:59:53.686
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-23 12:59:53.688
+!MESSAGE Log4j2 initialized with config file C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\Project\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-23 12:59:58.576
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-23 13:11:07.644
+!MESSAGE Indexed 'DoorLock_AUTOSAR_Project' (12 sources, 63 headers) in 1.52 sec: 2,530 declarations; 6,392 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-23 13:14:32.276
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-23 13:14:32.276
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-23 13:14:32.276
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\Project\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-23 13:14:32.277
+!MESSAGE Project is null
+!SESSION 2025-06-24 09:36:30.026 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-24 09:36:41.116
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-24 09:36:41.118
+!MESSAGE Log4j2 initialized with config file C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\Project\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-24 09:36:51.080
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-24 10:17:33.989
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-24 10:17:33.989
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-24 10:17:33.989
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\Project\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-24 10:17:33.990
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-24 10:19:01.843
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-24 10:19:01.843
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-24 10:19:01.843
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\Project\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-24 10:19:01.844
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-24 10:19:08.209
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-24 10:19:08.209
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-24 10:19:08.209
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\Project\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-24 10:19:08.209
+!MESSAGE Project is null
+!SESSION 2025-06-24 20:26:36.916 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-24 20:26:43.351
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-24 20:26:43.354
+!MESSAGE Log4j2 initialized with config file C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-24 20:26:51.585
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-06-24 20:37:32.819 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-24 20:37:41.660
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-24 20:37:41.661
+!MESSAGE Log4j2 initialized with config file C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-24 20:37:50.018
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-06-25 10:29:44.340 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-25 10:29:55.441
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-25 10:29:55.443
+!MESSAGE Log4j2 initialized with config file C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-25 10:30:05.394
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 12:09:03.464
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 12:09:03.464
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 12:09:03.464
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 12:09:03.464
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 12:09:56.796
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 12:09:56.797
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 12:09:56.797
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 12:09:56.797
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-25 12:10:23.905
+!MESSAGE Indexed 'DoorLock_AUTOSAR_Project' (17 sources, 80 headers) in 0.777 sec: 2,993 declarations; 6,923 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.02%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-25 13:18:04.483
+!MESSAGE Indexed 'Drivers' (12 sources, 10 headers) in 0.339 sec: 643 declarations; 3,211 references; 15 unresolved inclusions; 0 syntax errors; 416 unresolved names (9.7%)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:29:23.186
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:29:23.186
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:29:23.186
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:29:23.187
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:29:26.209
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:29:26.209
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:29:26.209
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:29:26.209
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:29:27.028
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:29:27.028
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:29:27.028
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:29:27.028
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:29:31.299
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:29:31.299
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:29:31.299
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:29:31.300
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:29:40.801
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:29:40.801
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:29:40.801
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:29:40.802
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:31:02.089
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:31:02.089
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:31:02.089
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:31:02.089
+!MESSAGE Project is null
+!SESSION 2025-06-25 13:55:28.894 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-25 13:55:41.903
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-25 13:55:41.904
+!MESSAGE Log4j2 initialized with config file C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-25 13:55:51.082
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:56:10.853
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:56:10.853
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:56:10.853
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:56:10.854
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:57:21.518
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:57:21.518
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:57:21.518
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:57:21.519
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:57:28.225
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:57:28.225
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:57:28.225
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:57:28.226
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 13:57:38.738
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 13:57:38.738
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 13:57:38.738
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 13:57:38.740
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 14:00:26.927
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 14:00:26.928
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 14:00:26.928
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 14:00:26.928
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-25 14:00:56.967
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-25 14:00:56.967
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-25 14:00:56.967
+!MESSAGE C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project overlaps the location of another project: 'DoorLock_AUTOSAR_Project'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-25 14:00:56.967
+!MESSAGE Project is null

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DoorLock_AUTOSAR_Project/Debug/DoorLock_AUTOSAR_Project.elf&apos; to &apos;DoorLock_AUTOSAR_Project.axf&apos;" description="Rename resource &apos;DoorLock_AUTOSAR_Project.elf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/DoorLock_AUTOSAR_Project.elf" name="DoorLock_AUTOSAR_Project.axf" stamp="1750844986302" updateReferences="true"/>
+</session>

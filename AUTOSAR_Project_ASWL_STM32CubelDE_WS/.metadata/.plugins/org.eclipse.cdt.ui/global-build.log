@@ -1,0 +1,122 @@
+14:01:02 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3180	      8	   1720	   4908	   132c	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+14:06:44 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/HAL/includes" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/AUTOSAR_implementation/AutosarincludeFiles" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'StartOS':
+../Src/main.c:83:25: warning: implicit declaration of function 'ReadDoorSensor_Runable' [-Wimplicit-function-declaration]
+   83 |                         ReadDoorSensor_Runable();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:88:25: warning: implicit declaration of function 'DoorLook_Indecation_runable' [-Wimplicit-function-declaration]
+   88 |                         DoorLook_Indecation_runable();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c: In function 'main':
+../Src/main.c:103:9: warning: implicit declaration of function 'Dio_Writechhannel' [-Wimplicit-function-declaration]
+  103 |         Dio_Writechhannel(DIO_Led, LEDON);
+      |         ^~~~~~~~~~~~~~~~~
+../Src/main.c:103:27: error: 'DIO_Led' undeclared (first use in this function)
+  103 |         Dio_Writechhannel(DIO_Led, LEDON);
+      |                           ^~~~~~~
+../Src/main.c:103:27: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:103:36: error: 'LEDON' undeclared (first use in this function)
+  103 |         Dio_Writechhannel(DIO_Led, LEDON);
+      |                                    ^~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+14:07:44 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/HAL/includes" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/AUTOSAR_implementation/AutosarincludeFiles" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'StartOS':
+../Src/main.c:83:25: warning: implicit declaration of function 'ReadDoorSensor_Runable' [-Wimplicit-function-declaration]
+   83 |                         ReadDoorSensor_Runable();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:88:25: warning: implicit declaration of function 'DoorLook_Indecation_runable' [-Wimplicit-function-declaration]
+   88 |                         DoorLook_Indecation_runable();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: DoorLock_AUTOSAR_Project.elf has a LOAD segment with RWX permissions
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+arm-none-eabi-objdump -h -S DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+   text	   data	    bss	    dec	    hex	filename
+   3196	      8	   1720	   4924	   133c	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+14:08:22 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-gcc  -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/HAL/includes" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/AUTOSAR_implementation/AutosarincludeFiles" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'StartOS':
+../Src/main.c:83:25: warning: implicit declaration of function 'ReadDoorSensor_Runable' [-Wimplicit-function-declaration]
+   83 |                         ReadDoorSensor_Runable();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:88:25: warning: implicit declaration of function 'DoorLook_Indecation_runable' [-Wimplicit-function-declaration]
+   88 |                         DoorLook_Indecation_runable();
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: DoorLock_AUTOSAR_Project.elf has a LOAD segment with RWX permissions
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+arm-none-eabi-objdump -h -S DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+   text	   data	    bss	    dec	    hex	filename
+   3196	      8	   1720	   4924	   133c	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+14:08:39 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3196	      8	   1720	   4924	   133c	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+14:14:29 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/HAL/includes" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/AUTOSAR_implementation/AutosarincludeFiles" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.d" -MT"AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.o"
+../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.c:17:3: error: expected ';' before 'const'
+   17 | hg
+      |   ^
+      |   ;
+   18 | const Rte_CDS_DoorLock_indecation_SWC * const Rte_Inst_DoorLock_indecation_SWC = &Rte_Instance_DoorLock_indecation_SWC;
+      | ~~~~~
+../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.c: In function 'Rte_Call_DoorLock_indecation_SWC_RP_CS_Led_Switch_Led_Switch':
+../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.c:35:9: warning: implicit declaration of function 'Led_Switch' [-Wimplicit-function-declaration]
+   35 |         Led_Switch(Led_State);
+      |         ^~~~~~~~~~
+make: *** [AUTOSAR_implementation/RTE_gen/subdir.mk:22: AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+14:14:34 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-gcc  -gdwarf-2 "../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/HAL/includes" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/Stm32_F103C6_Drivers/inc" -I"C:/Users/Moham/OneDrive/Desktop/Autosar/Unit3-SWC/AUTOSAR_Project_ASWL_STM32CubelDE_WS/DoorLock_AUTOSAR_Project/AUTOSAR_implementation/AutosarincludeFiles" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.d" -MT"AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.o"
+../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.c: In function 'Rte_Call_DoorLock_indecation_SWC_RP_CS_Led_Switch_Led_Switch':
+../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indecation_SWC.c:35:9: warning: implicit declaration of function 'Led_Switch' [-Wimplicit-function-declaration]
+   35 |         Led_Switch(Led_State);
+      |         ^~~~~~~~~~
+arm-none-eabi-gcc  -gdwarf-2 -o "DoorLock_AUTOSAR_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Moham\OneDrive\Desktop\Autosar\Unit3-SWC\AUTOSAR_Project_ASWL_STM32CubelDE_WS\DoorLock_AUTOSAR_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DoorLock_AUTOSAR_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: DoorLock_AUTOSAR_Project.elf has a LOAD segment with RWX permissions
+Finished building target: DoorLock_AUTOSAR_Project.elf
+ 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+arm-none-eabi-objdump -h -S DoorLock_AUTOSAR_Project.elf  > "DoorLock_AUTOSAR_Project.list"
+   text	   data	    bss	    dec	    hex	filename
+   3196	      8	   1720	   4924	   133c	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: DoorLock_AUTOSAR_Project.list
+ 
+14:14:52 **** Incremental Build of configuration Debug for project DoorLock_AUTOSAR_Project ****
+make -j12 all 
+arm-none-eabi-size  DoorLock_AUTOSAR_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3196	      8	   1720	   4924	   133c	DoorLock_AUTOSAR_Project.elf
+Finished building: default.size.stdout
+ 
